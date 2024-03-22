@@ -1,0 +1,31 @@
+body {
+
+}
+
+table {
+    width: 100%;
+    border: 2px solid #aeadad;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+}
+
+th, td {
+    /* border: 1px solid #ddd; */
+    border: 1px solid #aeadad;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #7F7F7F;
+    border-color: #ddd;
+    color: #FFF;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}

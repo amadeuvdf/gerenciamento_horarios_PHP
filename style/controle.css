@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+
+}
+
+#lado_dir {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+}
+
+#calendario {
+    width: 30%;
+    height: 100%;
+    background-color: #ccc;
+}
+
+#superior {
+    height: 50%;
+    background-color: #ddd;
+}
+
+#inferior {
+    height: 50%;
+    background-color: #bbb8b4;
+}
+
+
+label {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.aviso {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input_form{
+    width: 15rem;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #747479;
+    margin: 15px 5px 15px 5px;
+    box-sizing: border-box;
+}
+
+.input_form:focus,
+select:focus {
+    outline: none;
+    border-color: #6569ff;
+}
+
+input[type="submit"] {
+    background-color: #747479;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #454548;
+}
+
+#seleciona_form {
+    background-color: #747479;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#seleciona_form:hover {
+    background-color: #454548;
+}
+
+.caixa_input {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+#caixa_acao{
+    padding: 15px;
+}
+
+#inferior table {
+    width: 100%;
+    border: 2px solid #c6c6e4;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+}
+
+#inferior th, td {
+    /* border: 1px solid #ddd; */
+    border: 1px solid #d9d9ed;
+    padding: 12px;
+    text-align: left;
+}
+
+#inferior th {
+    background-color: #b2b3da;
+    border-color: #ddd;
+    color: #FFF;
+}
+
+#inferior tr:nth-child(even) {
+    background-color: #cccac7;
+}
+
+#inferior tr:hover {
+    background-color: #ececf6;
+}
+
+.fc .fc-timegrid-slot {
+    height: 2.5em;
+}
